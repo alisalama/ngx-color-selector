@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "downlevelIteration": true,
     "importHelpers": true,
-    "target": "es5",
+    "module": "esnext",
+    "target": "es2015",
     "baseUrl": "./src",
     "experimentalDecorators": true,
     "moduleResolution": "node",

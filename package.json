@@ -29,16 +29,17 @@
     "url": "https://github.com/bytelabsco/ngx-color-selector/issues"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.13.0",
-    "@angular/common": "^7.2.16",
-    "@angular/compiler": "^7.2.16",
-    "@angular/compiler-cli": "^7.2.16",
-    "@angular/core": "^7.2.16",
-    "@angular/platform-browser": "^7.2.16",
-    "@angular/platform-browser-dynamic": "^7.2.16",
+    "@angular-devkit/build-angular": "~0.803.29",
+    "@angular/common": "^8.2.14",
+    "@angular/compiler": "^8.2.14",
+    "@angular/compiler-cli": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "@angular/platform-browser": "^8.2.14",
+    "@angular/platform-browser-dynamic": "^8.2.14",
     "@compodoc/compodoc": "^1.0.0-beta.10",
     "@types/jasmine": "2.5.53",
     "@types/node": "~6.0.60",
+    "codelyzer": "^5.0.1",
     "concurrently": "^3.4.0",
     "core-js": "^2.4.1",
     "del": "^2.2.2",
@@ -64,14 +65,14 @@
     "systemjs": "^0.20.12",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
-    "typescript": "~3.2.4",
-    "zone.js": "^0.8.29"
+    "typescript": "~3.5.3",
+    "zone.js": "~0.9.1"
   },
   "engines": {
     "node": ">=6.0.0"
   },
   "dependencies": {
-    "@angular/cli": "^7.3.10",
+    "@angular/cli": "^8.3.29",
     "rxjs-compat": "^6.0.0-rc.0",
     "tslib": "^1.9.0"
   }
