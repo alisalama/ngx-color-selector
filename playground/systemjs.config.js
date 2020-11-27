@@ -27,7 +27,7 @@
       // other libraries
       rxjs: 'npm:rxjs',
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
-      '@bytelabsco/ngx-color-selector': '../dist'
+      'ngx-color-selector': '../dist'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
@@ -43,7 +43,7 @@
         defaultExtension: 'js',
         main: 'Rx.js'
       },
-      '@bytelabsco/ngx-color-selector': {
+      'ngx-color-selector': {
         main: 'ngx-color-selector.umd.js',
         defaultExtension: 'js'
       }

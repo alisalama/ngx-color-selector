@@ -20,15 +20,16 @@ export class BytelabsColorSelectorComponent implements OnInit {
 
     private _color: IColor;
     @Input()
-    set color(color: IColor) {
-        this.colorSelectorService.currentColor = color;
+    set color(color: any) {
+        const c: IColor = { hex: color};
+        this.colorSelectorService.currentColor = c;
     }
 
     get color() {
         return this._color;
     }
 
-    @Output() colorChange = new EventEmitter<IColor>();
+    @Output() colorChange = new EventEmitter<string>();
 
     @Input() options: IColorSelectorConfig;
 
@@ -41,7 +42,7 @@ export class BytelabsColorSelectorComponent implements OnInit {
 
         this.colorSelectorService.currentColor$.subscribe((color: IColor) => {
             this._color = color;
-            this.colorChange.next(color);
+            this.colorChange.next(color.hex);
             this.showPalette = false;
         });
 

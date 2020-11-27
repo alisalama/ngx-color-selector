@@ -6,7 +6,7 @@ import { NgModule } from '@angular/core';
 import { Component } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { BytelabsColorSelectorModule, IColor, PalettePosition, MATERIAL_COLORS, ColorSelectorConfig } from '@bytelabsco/ngx-color-selector';
+import { BytelabsColorSelectorModule, IColor, PalettePosition, MATERIAL_COLORS, ColorSelectorConfig } from 'ngx-color-selector';
 
 export function colorSelectorConfigProvider() {
   return new ColorSelectorConfig({ palette: MATERIAL_COLORS });
