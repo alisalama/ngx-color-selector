@@ -25,7 +25,7 @@ then navigate in a browser to
 
 ## Installation
 
-    npm install --save @bytelabsco/ngx-color-selector
+    npm install --save ngx-color-selector
 
 
 ## Getting Started
@@ -36,7 +36,7 @@ Import the `BytelabsColorSelectorModule` in your application module:
 
 	// ... Other imports
 
-	import { BytelabsColorSelectorModule } from '@bytelabsco/ngx-color-selector';
+	import { BytelabsColorSelectorModule } from 'sngx-color-selector';
 
 	@NgModule({
 		imports: [
@@ -51,7 +51,7 @@ In your component, set up a variable to store your color:
 
 	import { Component } from '@angular/core';
 
-	import { IColor } from '@bytelabsco/ngx-color-selector';
+	import { IColor } from 'ngx-color-selector';
 
 	@Component({
   		selector: 'app-root',
@@ -105,11 +105,11 @@ In your component you can create a variable to hold your custom options, or you 
 
 	import { Component } from '@angular/core';
 
-	import { IColorSelectorConfig, IColor, PalettePosition } from '@bytelabsco/ngx-color-selector';
+	import { IColorSelectorConfig, IColor, PalettePosition } from 'ngx-color-selector';
 
 	@Component({
   		selector: 'app-root',
-  		templateUrl: './app.component.html',
+  		templateUrl: './app.component.html',s
   		styleUrls: ['./app.component.css']
 	})
 	export class AppComponent {
