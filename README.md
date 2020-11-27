@@ -1,12 +1,14 @@
 
 # ngx-color-selector # 
 
+UPDATED TO ANGULAR 10/11
+FORKED FROM https://github.com/bytelabsco/ngx-color-selector
+
 ![](https://travis-ci.org/bytelabsco/ngx-color-selector.svg?branch=master) ![](https://badge.fury.io/js/%40bytelabsco%2Fngx-color-selector.svg)
 
 **ngx-color-selector** provides a simple interface for selecting from a predefined set of colors.
 
 ![](https://github.com/bytelabsco/ngx-color-selector/raw/master/docs/ngx-color-selector-example.gif)
-
 
 ## Demo
 
